@@ -118,18 +118,7 @@ def main():
     st.title("Inventory Threshold Calculator")
     st.write(
         """
-        **Problem Statement:**  
-        Supermarkets often face lost sales due to unnoticed low inventory in their aisles.
-        This tool helps by analyzing sales data to compute the inventory threshold for each SKU.
-        <br><br>
-        **How It Works:**  
-        1. Upload a CSV file containing your sales data.  
-        2. For each SKU, the tool processes daily orders by summing the found quantity
-           for orders that are completely served. It stops when an order is not fully served 
-           (i.e. when found quantity does not match ordered quantity or when the item state is "removed").
-        3. Daily thresholds are averaged by week to smooth out daily variations.
-        4. The final table displays each SKU with its weekly thresholds and an overall 
-           average threshold (sorted descendingly by this average).
+        **test**
         """
         , unsafe_allow_html=True
     )
